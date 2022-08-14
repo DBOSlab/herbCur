@@ -4,12 +4,12 @@
 \alias{herbLab}
 \title{Make herbarium labels}
 \usage{
-herbLab(fieldcoll = NULL,
+herbLab(fieldbook = NULL,
         dir_create = "results_herbarium_labels",
         file_label = "herbarium_labels.pdf")
 }
 \arguments{
-\item{fieldcoll}{The CSV formatted file containing all details about the collected
+\item{fieldbook}{The CSV formatted file containing all details about the collected
 specimens. See the README file for a complete description on how the columns of
 the input field book should be formatted.}
 
@@ -23,9 +23,9 @@ If no name is reported, the default setting creates files named as
 labels you need to prepare, because the function put six labels in each PDF file.}
 }
 \description{
-This function makes herbarium labels from a field book in a CSV
-spreadsheet format. It is currently more comprehensive for making herbarium
-labels from specimens collected in the USA, by displaying geographic maps also
+This function makes herbarium labels from field book in spreadsheet
+CSV format. It is currently more comprehensive for making herbarium labels from
+specimens collected in the USA, because it will display geographic maps also
 at county level. For specimens collected in all other countries, the label will
 display only the country level map. If geographic coordinates are provided,
 then the specimen record is also plotted in the map. The function also insert
