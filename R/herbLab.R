@@ -2,7 +2,7 @@
 #'
 #' @author Domingos Cardoso
 #'
-#' @description This function makes herbarium labels from a field book in a CSV
+#' @description This function makes herbariumlabels from a field book in a CSV
 #' spreadsheet format. It is currently more comprehensive for making herbarium
 #' labels from specimens collected in the USA, by displaying geographic maps also
 #' at county level. For specimens collected in all other countries, the label will
