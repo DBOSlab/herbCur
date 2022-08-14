@@ -1,0 +1,21 @@
+Package: herbCur
+Title: An R package for curating plant biodiversity collections
+Version: 1.0.0
+Authors@R: 
+    person("Domingos", "Cardoso", , "cardosobot@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7072-2656"))
+Description: This package helps to automate the cleaning of herbarium records from public databases (e.g. GBIF, SEINet, and speciesLink) and generate herbarium labels from field books.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests: 
+    cowplot,
+    ggplot2,
+    knitr,
+    LCVP,
+    lcvplants,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
