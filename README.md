@@ -31,10 +31,18 @@ identifying specimen duplicates stored among different herbaria.
 ## Installation
 
 You can install the development version of **herbCur** from
-[GitHub](https://github.com/) with:
+[GitHub](https://github.com/) directly from R using the `install_github`
+function of devtools (you may need to install that one first). To use
+**herbCur** you also need to install the
+[lcvplants](https://idiv-biodiversity.github.io/lcvplants/) and
+[LCVP](https://github.com/idiv-biodiversity/LCVP) packages first.
 
 ``` r
 # install.packages("devtools")
+
+devtools::install_github("idiv-biodiversity/LCVP")
+devtools::install_github("idiv-biodiversity/lcvplants")
+
 devtools::install_github("DBOSlab/herbCur")
 ```
 
