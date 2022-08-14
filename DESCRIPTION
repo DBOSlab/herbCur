@@ -9,13 +9,18 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
-Suggests: 
+Depends: 
+    R (>= 3.5.0)
+Imports:
     cowplot,
     ggplot2,
     knitr,
     LCVP,
     lcvplants,
-    rmarkdown,
+    rmarkdown
+Suggests:
     testthat (>= 3.0.0)
+URL: https://DBOSlab.github.io/herbCur
+BugReports: https://github.com/DBOSlab/herbCur/issues
 VignetteBuilder: knitr
 Config/testthat/edition: 3
