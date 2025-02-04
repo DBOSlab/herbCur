@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# herbCur <img src="man/figures/herbcur.png" align="right" alt="" width="120" />
+# herbCur <img src="man/figures/herbCur_hex_sticker.png" align="right" alt="" width="120" />
 
 <!-- badges: start -->
 <!-- badges: end -->

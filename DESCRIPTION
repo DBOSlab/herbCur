@@ -12,10 +12,15 @@ RoxygenNote: 7.2.1
 Depends: R (>= 3.5.0)
 Imports:
     cowplot,
-    ggplot2
+    ggplot2,
+    ggspatial,
+    ggthemes,
+    magrittr,
+    maps,
+    sf,
+    lcvplants  
 Suggests:
     LCVP,
-    lcvplants,
     knitr,
     rmarkdown,
     testthat (>= 3.0.0)
